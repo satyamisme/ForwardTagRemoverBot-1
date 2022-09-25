@@ -21,7 +21,7 @@ from caption.setCaption import setCaption
 import os
 from config import Config
 
-updater=Updater("5533189666:AAEDjtHyhGS4_TMiRwgopX02ARw_KTcech8",use_context=True)
+updater=Updater(Config.TOKEN,use_context=True)
 dp=updater.dispatcher
 
 
